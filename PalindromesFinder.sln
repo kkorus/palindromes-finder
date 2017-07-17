@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromesFinder.App", "src\PalindromesFinder.App\PalindromesFinder.App.csproj", "{7FD1EC9B-E665-4EF1-8A98-E4CA062C5CF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E53F0F7-D281-442D-8395-1D9E9B2E903B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{488ED806-495F-41B9-8045-27DDDB234E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromesFinder", "src\PalindromesFinder\PalindromesFinder.csproj", "{22B57B4B-599D-4270-BA04-2FA07785CC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromesFinder.UnitTests", "test\PalindromesFinder.UnitTests\PalindromesFinder.UnitTests.csproj", "{3F7A3FC4-6666-4777-A64F-D4E0A956655F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FD1EC9B-E665-4EF1-8A98-E4CA062C5CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD1EC9B-E665-4EF1-8A98-E4CA062C5CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD1EC9B-E665-4EF1-8A98-E4CA062C5CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD1EC9B-E665-4EF1-8A98-E4CA062C5CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B57B4B-599D-4270-BA04-2FA07785CC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B57B4B-599D-4270-BA04-2FA07785CC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B57B4B-599D-4270-BA04-2FA07785CC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B57B4B-599D-4270-BA04-2FA07785CC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7A3FC4-6666-4777-A64F-D4E0A956655F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7A3FC4-6666-4777-A64F-D4E0A956655F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7A3FC4-6666-4777-A64F-D4E0A956655F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7A3FC4-6666-4777-A64F-D4E0A956655F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FD1EC9B-E665-4EF1-8A98-E4CA062C5CF3} = {3E53F0F7-D281-442D-8395-1D9E9B2E903B}
+		{22B57B4B-599D-4270-BA04-2FA07785CC07} = {3E53F0F7-D281-442D-8395-1D9E9B2E903B}
+		{3F7A3FC4-6666-4777-A64F-D4E0A956655F} = {488ED806-495F-41B9-8045-27DDDB234E60}
+	EndGlobalSection
+EndGlobal
